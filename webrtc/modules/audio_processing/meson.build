@@ -1,4 +1,4 @@
-apm_flags = ['-DWEBRTC_APM_DEBUG_DUMP=0']
+apm_flags = ['-DWEBRTC_APM_DEBUG_DUMP=1']
 
 webrtc_audio_processing_sources = [
   'aec_dump/null_aec_dump_factory.cc',

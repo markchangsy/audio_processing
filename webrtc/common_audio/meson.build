@@ -4,6 +4,8 @@ common_audio_sources = [
   'channel_buffer.cc',
   'fir_filter_c.cc',
   'fir_filter_factory.cc',
+  'wav_file.cc',
+  'wav_header.cc',
   'resampler/push_resampler.cc',
   'resampler/push_sinc_resampler.cc',
   'resampler/resampler.cc',

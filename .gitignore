@@ -10,3 +10,4 @@ depcomp
 install/
 subprojects/*
 *.wav
+out_debug_dump/
