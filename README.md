@@ -17,6 +17,8 @@ This project uses the [Meson build system](https://mesonbuild.com/). The
 quickest way to build is:
 
 ```sh
+pip install meson ninja
+
 # Initialise into the build/ directory, for a prefixed install into the
 # install/ directory
 meson . build -Dprefix=$PWD/install
@@ -29,6 +31,10 @@ ninja -C build install
 
 # The libraries, headers, and pkg-config files are now in the install/
 # directory
+
+# Execute 
+./build/examples/run-offline test_sample/lpb.wav test_sample/mic.wav test_sample/out.wav
+
 ```
 
 # Feedback

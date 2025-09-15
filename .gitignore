@@ -11,3 +11,5 @@ install/
 subprojects/*
 *.wav
 out_debug_dump/
+!test_sample/lpb.wav
+!test_sample/mic.wav
